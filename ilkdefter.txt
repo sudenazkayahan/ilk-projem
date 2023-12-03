@@ -1,1 +1,2 @@
 test sude
+merhaba git dersimize hoşgeldiniz, umarım herkes için faydalı olur.
