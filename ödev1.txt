@@ -1,0 +1,34 @@
+LİNUX
+
+"*" bir veya birden fazla karakter yerine geçebilir
+"?" yıldızın(*) tek bir karakter için oluşturulmuş versiyonur
+"[ ]" 1{02}*  1ile başlıyıp 0 veya 2 ile devam eden dosya isimleri çıkar
+"[ ]" kopyalama ve taşıma işlemleri içinde kullanılabilir
+">" bir komutun çıktısını bir başka dosyaya tamamen yazmamızı sağlar
+">>" komutların çıktısını istediğim dosyanın sonuna ekler
+"alt gr + çizgi" kombinasyonu >>> pipe 
+"grep" bir metin dosyası veya metin verisini içeren bir akış içinde belirli bir deseni aramak için kullanılır. 
+"alias" komut adı değiştirme
+"pipe" komut çıktılarını bakşa bir komuta girdi olarak verir.
+"cat ~/.bashrc" alias komutunu kalıcı yapar
+"/etc/shadow" kullanıcı parolalarının tutulduğu yer
+"sudo" parola tanımlama
+"sudo" yetki yükseltme
+"deluser" kullanıcı siler
+"addgroup" grup ekleme
+"sudo cat shadow" yetki yükseltme 
+"sudo useradd" kullanıcı ekleme kodu
+"usermod -a -G" bir grubu kullanıcı ekler
+"root" en yetkili kullanıcı
+"chown" kullanıcı değiştirme
+"chgrp" grubu değiştirme
+
+
+GİT UP
+
+"git config --global user.name ....." kullanıcı adı oluşturma
+"git status" bir dosyada gitle alakalı bir işlem yapmak için kullanılır
+"git init" git ile bağlantı oluşturma
+"git add ." değişikliklerin hepsini kaydeder
+"git commit -a" tüm değişiklikleri commitler
+"git log" en yeni commit'ten başlayarak tüm commit geçmişini gösterir
